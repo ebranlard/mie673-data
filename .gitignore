@@ -1,0 +1,16 @@
+# 
+*.exe
+*.dll
+*.sum
+*.echo
+*.out
+*.outb
+*.vtk
+*.vtp
+vtk*
+
+# 
+*.png
+
+# Ignore files that starts with an underscore for convenience
+_*
