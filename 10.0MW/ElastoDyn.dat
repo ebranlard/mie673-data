@@ -132,29 +132,55 @@ True                   TabDelim    - Use tab delimiters in text tabular output f
 0                      NBlGages    - Number of blade nodes that have strain gages for output [0 to 9] (-)
 1, 2                   BldGagNd    - List of blade nodes that have strain gages [1 to BldNodes] (-) [unused if NBlGages=0] BldGagNd    - List of blade nodes that have strain gages [1 to BldNodes] (-) [unused if NBlGages=0] BldGagNd    - List of blade nodes that have strain gages [1 to BldNodes] (-) [unused if NBlGages=0]
                        OutList     - The next line(s) contains a list of output parameters.  See OutListParameters.xlsx for a listing of available output channels, (-)
-"Azimuth"
-"BldPitch1"
-"GenSpeed"
-"IPDefl1"
-"OoPDefl1"
-"RootFxb1"
-"RootFxc1"
-"RootFyb1"
-"RootFyc1"
-"RootFzc1"
-"RootMxb1"
-"RootMxc1"
+"BldPitch1"               - Pitch angles for blades 1
+"Azimuth"                 - Blade 1 azimuth angle
+"RotSpeed"                - Low-speed shaft and high-speed shaft speeds
+"GenSpeed"                - Low-speed shaft and high-speed shaft speeds
+"NacYaw"                  - Nacelle yaw angle and nacelle yaw error estimate
+"OoPDefl1"                - Blade 1 out-of-plane and in-plane deflections and tip twist
+"IPDefl1"                 - Blade 1 out-of-plane and in-plane deflections and tip twist
+"OoPDefl2"                - Blade 2 out-of-plane and in-plane deflections and tip twist
+"IPDefl2"                 - Blade 2 out-of-plane and in-plane deflections and tip twist
+"OoPDefl3"                - Blade 3 out-of-plane and in-plane deflections and tip twist
+"IPDefl3"                 - Blade 3 out-of-plane and in-plane deflections and tip twist
+"TwrClrnc1"               - Tip-to-tower clearance estimate for blades 1, 2, and 3
+"TwrClrnc2"               - Tip-to-tower clearance estimate for blades 1, 2, and 3
+"TwrClrnc3"               - Tip-to-tower clearance estimate for blades 1, 2, and 3
+"TTDspFA"                 - Tower fore-aft and side-to-side displacements and top twist
+"TTDspSS"                 - Tower fore-aft and side-to-side displacements and top twist
+"PtfmSurge"               - Platform translational surge, sway, and heave displacements
+"PtfmSway"                - Platform translational surge, sway, and heave displacements
+"PtfmHeave"               - Platform translational surge, sway, and heave displacements
+"PtfmRoll"                - Platform rotational roll, pitch and yaw displacements
+"PtfmPitch"               - Platform rotational roll, pitch and yaw displacements
+"PtfmYaw"                 - Platform rotational roll, pitch and yaw displacements
+"RootFxc1"                - Out-of-plane shear, in-plane shear, and axial forces at the root of blade 1
+"RootFyc1"                - Out-of-plane shear, in-plane shear, and axial forces at the root of blade 1
+"RootFzc1"                - Out-of-plane shear, in-plane shear, and axial forces at the root of blade 1
+"RootMxc1"                - In-plane bending, out-of-plane bending, and pitching moments at the root of blade 1
+"RootMyc1"                - In-plane bending, out-of-plane bending, and pitching moments at the root of blade 1
+"RootMzc1"                - In-plane bending, out-of-plane bending, and pitching moments at the root of blade 1
+"RotThrust"               - Rotor thrust                                at the main bearing
+"RotTorq"                 - Rotor torque                                at the main bearing
+"LSSGagMya"               - Low-speed shaft  0-rotating bending moments at the main bearing
+"LSSGagMza"               - Low-speed shaft 90-rotating bending moments at the main bearing
+"RotPwr"                  - Rotor power (this is equivalent to the low-speed shaft power)
+"HSShftTq"                - High-speed shaft torque (this is constant along the shaft)
+"YawBrFxp"                - Fore-aft shear     at the top of the tower (not rotating with nacelle yaw)
+"YawBrFyp"                - Side-to-side shear at the top of the tower (not rotating with nacelle yaw)
+"YawBrFzp"                - Vertical force     at the top of the tower (not rotating with nacelle yaw)
+"YawBrMxp"                - Side-to-side bending, fore-aft bending, and yaw moments at the top of the tower (not rotating with nacelle yaw)
+"YawBrMyp"                - Side-to-side bending, fore-aft bending, and yaw moments at the top of the tower (not rotating with nacelle yaw)
+"YawBrMzp"                - Side-to-side bending, fore-aft bending, and yaw moments at the top of the tower (not rotating with nacelle yaw)
+"YawBrTAxp"               -	Tower-top / yaw bearing fore-aft (translational) acceleration (absolute)
+"YawBrTAyp"               -	Tower-top / yaw bearing side-to-side (translational) acceleration (absolute)
+"TwrBsFxt"                - Fore-aft shear, side-to-side shear, and vertical forces at the base of the tower (platform)
+"TwrBsFyt"                - Fore-aft shear, side-to-side shear, and vertical forces at the base of the tower (platform)
+"TwrBsFzt"                - Fore-aft shear, side-to-side shear, and vertical forces at the base of the tower (platform)
+"TwrBsMxt"                - Side-to-side bending, fore-aft bending, and yaw moments at the base of the tower (platform)
+"TwrBsMyt"                - Side-to-side bending, fore-aft bending, and yaw moments at the base of the tower (platform)
+"TwrBsMzt"                - Side-to-side bending, fore-aft bending, and yaw moments at the base of the tower (platform)
 "RootMyb1"
-"RootMyc1"
-"RootMzc1"
-"RotSpeed"
-"RotThrust"
-"RotTorq"
-"TipClrnc1"
-"TipDxb1"
-"TipDyb1"
-"TipDzb1"
-"TwstDefl1"
 END of input file (the word "END" must appear in the first 3 columns of this last OutList line)
 ---------------------- NODE OUTPUTS --------------------------------------------
           1   BldNd_BladesOut  - Blades to output

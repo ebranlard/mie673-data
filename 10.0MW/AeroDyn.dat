@@ -153,9 +153,8 @@ Cn
 Ct
 Fn
 Ft
-Fx
-Fy
 TnInd
 AxInd
+Re
 END (the word "END" must appear in the first 3 columns of this last OutList line in the optional nodal output section)
 ====================================================================================================
