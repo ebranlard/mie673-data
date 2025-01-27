@@ -1,0 +1,6 @@
+Model,RatedPower_[MW],RatedSpeed_[RPM],RatedWind_[m/s],RadiusApprox_[m]
+IEA-3.4-130-RWT ,3.4,11.56,9.81,65
+NREL-5MW        ,5,12.1,11.4,63
+IEA-10.0-198-RWT,10,8.68,11,99
+IEA-15-240-RWT  ,15,7.55,10.5,120
+IEA-22-280-RWT  ,22,7.06,10.5,140
