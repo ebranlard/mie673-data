@@ -3,6 +3,7 @@
 *.dll
 *.sum
 *.echo
+*.ech
 *.out
 *.outb
 *.vtk
@@ -11,6 +12,9 @@ vtk*
 
 # 
 *.png
+*.pdf
+
+25.0MW*
 
 # Ignore files that starts with an underscore for convenience
 _*
